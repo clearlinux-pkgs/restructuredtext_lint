@@ -4,7 +4,7 @@
 #
 Name     : restructuredtext_lint
 Version  : 0.14.2
-Release  : 13
+Release  : 14
 URL      : https://pypi.python.org/packages/source/r/restructuredtext_lint/restructuredtext_lint-0.14.2.tar.gz
 Source0  : https://pypi.python.org/packages/source/r/restructuredtext_lint/restructuredtext_lint-0.14.2.tar.gz
 Summary  : reStructuredText linter
