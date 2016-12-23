@@ -4,7 +4,7 @@
 #
 Name     : restructuredtext_lint
 Version  : 0.17.2
-Release  : 17
+Release  : 18
 URL      : http://pypi.debian.net/restructuredtext_lint/restructuredtext_lint-0.17.2.tar.gz
 Source0  : http://pypi.debian.net/restructuredtext_lint/restructuredtext_lint-0.17.2.tar.gz
 Summary  : reStructuredText linter
