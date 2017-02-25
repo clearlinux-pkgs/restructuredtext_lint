@@ -4,7 +4,7 @@
 #
 Name     : restructuredtext_lint
 Version  : 0.17.2
-Release  : 18
+Release  : 19
 URL      : http://pypi.debian.net/restructuredtext_lint/restructuredtext_lint-0.17.2.tar.gz
 Source0  : http://pypi.debian.net/restructuredtext_lint/restructuredtext_lint-0.17.2.tar.gz
 Summary  : reStructuredText linter
@@ -12,9 +12,11 @@ Group    : Development/Tools
 License  : Unlicense
 Requires: restructuredtext_lint-bin
 Requires: restructuredtext_lint-python
+Requires: docutils
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : python-dev
+BuildRequires : python3-dev
 BuildRequires : setuptools
 
 %description
@@ -45,11 +47,15 @@ python components for the restructuredtext_lint package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1488061329
 python2 setup.py build -b py2
+python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1488061329
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
