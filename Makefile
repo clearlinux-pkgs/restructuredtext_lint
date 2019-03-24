@@ -1,5 +1,5 @@
 PKG_NAME := restructuredtext_lint
-URL = https://files.pythonhosted.org/packages/cd/cc/d9e61a7615e723883edd6d9517090d0e73c51933e70794e759eb7fae6ff2/restructuredtext_lint-1.2.2.tar.gz
+URL = https://files.pythonhosted.org/packages/62/76/bd8760de759fb74d7863e6935200af101cb128a7de008741a4e22341d03c/restructuredtext_lint-1.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
