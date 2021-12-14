@@ -4,7 +4,7 @@
 #
 Name     : restructuredtext_lint
 Version  : 1.3.2
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/45/69/5e43d0e8c2ca903aaa2def7f755b97a3aedc5793630abbd004f2afc3b295/restructuredtext_lint-1.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/45/69/5e43d0e8c2ca903aaa2def7f755b97a3aedc5793630abbd004f2afc3b295/restructuredtext_lint-1.3.2.tar.gz
 Summary  : reStructuredText linter
